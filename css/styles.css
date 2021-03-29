@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+#title {
+    background-image: linear-gradient(to right top, #a144ff, #c133eb, #d821d6, #e80dc1, #f300ad, #ff0089, #ff2968, #ff494b, #fd7c08, #e1ad00, #aad900, #1eff5b);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.title {
+    padding-top: 80px;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    padding:  0 20px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.title-img {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+#features h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.icon {
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68  ;
+}
+
+#testimonials {
+    text-align: center;
+    background-image: linear-gradient(to right top, #a144ff, #c133eb, #d821d6, #e80dc1, #f300ad, #ff0089, #ff2968, #ff494b, #fd7c08, #e1ad00, #aad900, #1eff5b);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.carousel-inner {
+    padding: 7% 15%;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#press {
+    text-align: center;
+    background-image: linear-gradient(to right top, #a144ff, #c133eb, #d821d6, #e80dc1, #f300ad, #ff0089, #ff2968, #ff494b, #fd7c08, #e1ad00, #aad900, #1eff5b);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 3%;
+}
+
+#press img {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.btn-w {
+    width: 100%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.column-pricing {
+    padding: 3% 2%;
+}
+
+#cta {
+    text-align: center;
+    background-image: linear-gradient(to right top, #a144ff, #c133eb, #d821d6, #e80dc1, #f300ad, #ff0089, #ff2968, #ff494b, #fd7c08, #e1ad00, #aad900, #1eff5b);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10% 12%;
+    
+}
+
+#cta h3 {
+    font-size: 4rem;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    line-height: 1.8;
+}
+
+#cta button {
+    margin: 10px;
+}
+
+#footer {
+    text-align: center;
+    padding: 5%;
+}
+
+.icons {
+    padding: 2%;
+}
+
+.icons i {
+    margin: 10px;
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+.icons i:hover {
+    color: #ff4c68;
+    transform: translateY(-5px);
+}
+
+
+@media (max-width: 990px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        margin-top: 50px;
+        width: 40%;
+        position: static;
+        transform: rotate(15deg);
+    }
+}
+
